@@ -412,7 +412,7 @@ ul.right_icon li img {
 /*--   navigation--*/
 
 .header_bottom {
-     background-color: #000000;
+     background-color: #ffffff;
 }
 
 .navigation.navbar {
@@ -677,7 +677,7 @@ margin: 0 15px 20px 15px;
      display: block;
      text-transform: none;
      color: #fff;
-     background: #183661;
+     background: #f2c119 !important;
      padding: 10px 0;
 }
 
@@ -837,13 +837,13 @@ margin: 0 15px 20px 15px;
 /** footer **/
 
 .footer {
-     background: #183661;
+     background: #ffffff;
      padding-top: 170px;
      text-align: center;
 }
 
 .footer h3 {
-     color: #fff;
+     color: #000000;
      font-size: 20px;
      line-height: 20px;
      text-transform: uppercase;
@@ -853,7 +853,7 @@ margin: 0 15px 20px 15px;
 }
 
 .footer p {
-     color: #fff;
+     color: #000000;
      font-size: 17px;
      line-height: 32px;
      text-align: left;
@@ -865,7 +865,7 @@ margin: 0 15px 20px 15px;
 .copyright {
      margin-top: 80px;
      padding-bottom: 20px;
-     background: #fbfdfd;
+     background: #000000;
 }
 
 .copyright p {
@@ -1043,4 +1043,3 @@ margin: 0 15px 20px 15px;
 
 
 /** end contact section **/
-
