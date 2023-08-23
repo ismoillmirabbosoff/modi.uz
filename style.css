@@ -1232,27 +1232,22 @@ ul.right_icon li img {
 }
 
 .contact-form {
-    width: 80vw;
+    width: 100% !important;
     display: flex;
     justify-content: space-between;
     background: #fff;
-    margin: 50px 0;
+
 }
 
-.contact-form>* {
-    width: 50%;
-}
 
-.contact-form .first-container {
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("images/mushk.png") center center/cover no-repeat;
+
+.formmm{
+    background: linear-gradient(45deg, rgba(46, 46, 46, 0.8), rgba(46, 46, 46, 0.8)), url("musk/mmm.webp") center center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contact-form .first-container .info-container div {
-    margin: 24px 0;
-}
 
 .contact-form .first-container .info-container div h3 {
     color: #fff;
@@ -1260,6 +1255,7 @@ ul.right_icon li img {
     font-weight: 400;
     line-height: 1.2;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .contact-form .first-container .info-container div:first-of-type p {
@@ -1273,9 +1269,6 @@ ul.right_icon li img {
     color: #00ad5f;
 }
 
-.contact-form .second-container {
-    padding: 30px;
-}
 
 .contact-form .second-container h2 {
     font-size: 30px;
@@ -1373,3 +1366,91 @@ ul.right_icon li img {
         padding: 40px 0;
     }
 }
+
+
+
+
+
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+.gabody {
+  font-family: "Poppins", sans-serif!important;
+  background: #fff !important;
+  font-size: 14px !important;
+  color: #383838 !important;
+}
+
+.containerw {
+  padding-bottom: 200px !important;
+}
+
+.form-groupp {
+  position: relative !important;
+  margin: 40px auto !important;
+}
+
+.form-controll {
+  position: relative !important;
+  z-index: 1 !important;
+  width: 100% !important;
+  height: 35px !important;
+  border-radius: 0 !important;
+  font-size: 16px !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-bottom: 1px solid #cccccc !important;
+  background-color: transparent !important;
+}
+.form-controll + label {
+  position: absolute !important;
+  top: 10px !important;
+  left: 3px !important;
+  font-size: 16px !important;
+  color: #cccccc !important;
+  transition: all 0.4s ease-out !important;
+}
+.form-controll:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border-width: 2px !important;
+  border-color: #009688 !important;
+}
+.form-controll:focus + label, .form-controll.has-value + label {
+  top: -15px !important;
+  color: #009688 !important;
+  font-size: 12px;
+}
+
+.form-groupp select, .mob, .det {
+  margin-bottom: 15px !important;
+  width: 40% !important;
+}
+
+.input-group-addon {
+  padding: 0 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1 !important;
+  color: #fff !important;
+  text-align: center !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .form-groupp select, .mob {
+    min-width: 100% !important;
+  }
+}
+
+
+
+footer{
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+ 
